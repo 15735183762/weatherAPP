@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>腾讯天气</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/weather.js"></script>
+    
+    <link rel="stylesheet" href="CSS/weather.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_853132_p7iw3a37rfk.css">
+</head>
+<body>
+   <div class="wrap">
+       <div class="info">
+           <div class="address">
+               <i class="iconfont icon-dizhi"></i>
+               <p class="cityc"></p>
+           </div>
+           <div class="kong">
+               <p class="up">空气</p>
+               <p class="down">轻度污染</p>
+           </div>
+            <p class="zero">0°</p>
+            <p class="qing"></p>
+           <p class="shi"></p>
+           <p class="tian">天冷了，注意保暖~</p>
+       </div>
+       <div class="second">
+           <div class="second-left">
+               <div class="one">
+                   <p>今天</p>
+                   <p class="condation">晴转多云</p>
+               </div>
+               <div class="two">
+                   <p class="high">2/</p>
+                   <p class="low">-11°C</p>
+                   <img src="img/0.png" alt="">
+               </div>
+           </div>
+           <div class="second-right">
+               <div class="one">
+                   <p>明天</p>
+                   <p class="conda"></p>
+               </div>
+               <div class="two">
+                   <p class="high">2/</p>
+                   <p class="low">-11°C</p>
+                   <img src="img/0.png" alt="">
+               </div>
+           </div>
+       </div>
+       <div class="third">
+            <ul>
+                <!--<li>-->
+                    <!--<p class="one">12:00</p>-->
+                    <!--<img src="img/0.png" alt="">-->
+                    <!--<p class="two">-1°C</p>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<p class="one">12:00</p>-->
+                    <!--<img src="img/0.png" alt="">-->
+                    <!--<p class="two">-1°C</p>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<p class="one">12:00</p>-->
+                    <!--<img src="img/0.png" alt="">-->
+                    <!--<p class="two">-1°C</p>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<p class="one">12:00</p>-->
+                    <!--<img src="img/0.png" alt="">-->
+                    <!--<p class="two">-1°C</p>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<p class="one">12:00</p>-->
+                    <!--<img src="img/0.png" alt="">-->
+                    <!--<p class="two">-1°C</p>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<p class="one">12:00</p>-->
+                    <!--<img src="img/0.png" alt="">-->
+                    <!--<p class="two">-1°C</p>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<p class="one">12:00</p>-->
+                    <!--<img src="img/0.png" alt="">-->
+                    <!--<p class="two">-1°C</p>-->
+                <!--</li>-->
+            </ul>
+       </div>
+       <div class="fourth">
+           <div class="top">
+               <ul>
+                   <li>
+                       <p class="one">昨天</p>
+                       <p class="two">01/15</p>
+                       <p class="three">多云</p>
+                       <img src="img/5.png" alt="">
+                   </li>
+                   <li>
+                       <p class="one">昨天</p>
+                       <p class="two">01/15</p>
+                       <p class="three">多云</p>
+                       <img src="img/5.png" alt="">
+                   </li>
+                   <li>
+                       <p class="one">昨天</p>
+                       <p class="two">01/15</p>
+                       <p class="three">多云</p>
+                       <img src="img/5.png" alt="">
+                   </li>
+                   <li>
+                       <p class="one">昨天</p>
+                       <p class="two">01/15</p>
+                       <p class="three">多云</p>
+                       <img src="img/5.png" alt="">
+                   </li>
+                   <li>
+                       <p class="one">昨天</p>
+                       <p class="two">01/15</p>
+                       <p class="three">多云</p>
+                       <img src="img/5.png" alt="">
+                   </li>
+               </ul>
+           </div>
+           <div class="bottom">
+               <ul>
+                   <li>
+                       <img src="img/7.png" alt="">
+                       <p class="three">多云</p>
+                       <p class="two">西北风</p>
+                       <p class="two">三级</p>
+                   </li>
+                   <li>
+                       <img src="img/7.png" alt="">
+                       <p class="three">多云</p>
+                       <p class="two">西北风</p>
+                       <p class="two">三级</p>
+                   </li>
+                   <li>
+                       <img src="img/7.png" alt="">
+                       <p class="three">多云</p>
+                       <p class="two">西北风</p>
+                       <p class="two">三级</p>
+                   </li>
+                   <li>
+                       <img src="img/7.png" alt="">
+                       <p class="three">多云</p>
+                       <p class="two">西北风</p>
+                       <p class="two">三级</p>
+                   </li>
+                   <li>
+                       <img src="img/7.png" alt="">
+                       <p class="three">多云</p>
+                       <p class="two">西北风</p>
+                       <p class="two">三级</p>
+                   </li>
+               </ul>
+           </div>
+       </div>
+       <div class="fifth">
+            <ul>
+                <div class="wrapUp">
+                    <li>
+                        <i class="iconfont icon-yusan-"></i>
+                        <p class="one">不带伞</p>
+                        <p class="down">雨伞</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-icon_fuzhuangxiangbao"></i>
+                        <p class="one">冷</p>
+                        <p class="down">穿衣</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-taiyang"></i>
+                        <p class="one">较弱</p>
+                        <p class="down">防晒</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-yusan-"></i>
+                        <p class="one">较不易</p>
+                        <p class="down">运动</p>
+                    </li>
+                </div>
+                <div class="wrapDown">
+                    <li>
+                        <i class="iconfont icon-yao"></i>
+                        <p class="one">较易发</p>
+                        <p class="down">感冒</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-yusan-"></i>
+                        <p class="one">不带伞</p>
+                        <p class="down">雨伞</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-yusan-"></i>
+                        <p class="one">不带伞</p>
+                        <p class="down">雨伞</p>
+                    </li>
+                    <li>
+                        <i class="iconfont icon-yusan-"></i>
+                        <p class="one">不带伞</p>
+                        <p class="down">雨伞</p>
+                    </li>
+                </div>
+            </ul>
+       </div>
+       <div class="sixth">
+           <p>数据来源于中国天气网</p>
+       </div>
+   </div>
+   <!--跳转到搜索块-->
+   <div class="citys">
+       <div class="search">
+           <i class="iconfont icon-sousuo"></i>
+           <input type="text" name="" id="" placeholder="搜索市、区、县等" />
+           <p>取消</p>
+       </div>
+       <p class="information">当前定位</p>
+       <div class="area">小店区</div>
+       <p class="information">历史记录</p>
+       <i class="iconfont icon-laji"></i>
+       <div class="history">
+           <div class="city">拉萨</div>
+           <div class="city">上海</div>
+       </div>
+       <ul class="b">
+         
+       </ul>
+       <!-- <p class="information">热门城市</p> -->
+       <!-- <section>
+           <div class="city">北京</div>
+           <div class="city">上海</div>
+           <div class="city">广州</div>
+           <div class="city">深圳</div>
+           <div class="city">郑州</div>
+           <div class="city">西安</div>
+           <div class="city">南京</div>
+           <div class="city">杭州</div>
+           <div class="city">武汉</div>
+           <div class="city">成都</div>
+           <div class="city">沈阳</div>
+           <div class="city">天津</div>
+       </section> -->
+       <!--<span class="scence">热门景区</span>-->
+       <!--<section>-->
+           <!--<div class="city">故宫</div>-->
+           <!--<div class="city">颐和园</div>-->
+           <!--<div class="city">九寨沟</div>-->
+           <!--<div class="city">凤凰古城</div>-->
+           <!--<div class="city">秦始皇陵</div>-->
+           <!--<div class="city">龙门石窟</div>-->
+           <!--<div class="city">武陵源</div>-->
+           <!--<div class="city">华山</div>-->
+           <!--<div class="city">黄山</div>-->
+       <!--</section>-->
+   </div>
+
+</body>
+</html>
